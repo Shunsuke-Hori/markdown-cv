@@ -1,0 +1,1 @@
+pandoc -s -f markdown-auto_identifiers source/cv.mmark -o output/cv.pdf --template=source/style/template.tex --pdf-engine=xelatex
